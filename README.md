@@ -29,17 +29,22 @@ sudo apt install libpolkit-agent-1-dev libpolkit-qt5-1-dev libsm-dev libxtst-dev
    sudo apt install cmake debhelper extra-cmake-modules libicu-dev libcrypt-dev libfreetype6-dev libfontconfig1-dev libkf5networkmanagerqt-dev libkf5config-dev modemmanager-qt-dev qtbase5-dev qtdeclarative5-dev qtquickcontrols2-5-dev qttools5-dev qttools5-dev-tools qml-module-qtquick-controls2 qml-module-qtquick2 qml-module-qtquick-layouts qml-module-qt-labs-platform qml-module-qt-labs-settings qml-module-qtqml qml-module-qtquick-window2 qml-module-qtquick-shapes qml-module-qtquick-dialogs qml-module-qtquick-particles2
    
 ```
-
+###For Arch/Manjaro
 ```
-sudo pacman -S extra-cmake-modules qt5-base qt5-quickcontrols2 
-sudo pacman -S gcc cmake qt5-base qt5-quickcontrols2 kwindowsystem
-sudo pacman -S gcc cmake qt5-base qt5-quickcontrols2 networkmanager-qt modemmanager-qt
-sudo pacman -S extra-cmake-modules qt5-base qt5-declarative kconfig kdecoration kguiaddons kcoreaddons kconfigwidgets kwindowsystem kwayland kwin
-sudo pacman -S extra-cmake-modules qt5-base qt5-quickcontrols2 taglib kio
-sudo pacman -S gcc cmake qt5-base qt5-quickcontrols2 kwindowsystem
-sudo pacman -S extra-cmake-modules pkgconf qt5-base qt5-quickcontrols2 qt5-x11extras qt5-tools  kwindowsystem polkit polkit-qt5 xorg-server-devel xf86-input-libinput xf86-input-synaptics
-sudo pacman -S extra-cmake-modules qt5-base qt5-quickcontrols2 freetype2 fontconfig networkmanager-qt modemmanager-qt
+sudo pacman -S extra-cmake-modules qt5-base qt5-quickcontrols2 gcc cmake qt5-base qt5-quickcontrols2 kwindowsystem gcc cmake qt5-base qt5-quickcontrols2 networkmanager-qt modemmanager-qt extra-cmake-modules qt5-base qt5-declarative kconfig kdecoration kguiaddons kcoreaddons kconfigwidgets kwindowsystem kwayland kwin extra-cmake-modules qt5-base qt5-quickcontrols2 taglib kio gcc cmake qt5-base qt5-quickcontrols2 kwindowsystem extra-cmake-modules pkgconf qt5-base qt5-quickcontrols2 qt5-x11extras qt5-tools  kwindowsystem polkit polkit-qt5 xorg-server-devel xf86-input-libinput xf86-input-synaptics extra-cmake-modules qt5-base qt5-quickcontrols2 freetype2 fontconfig networkmanager-qt modemmanager-qt
 
     
     
 ```
+### For build
+```
+mkdir build
+cd build
+cmake ..
+make
+sudo make install
+
+```
+
+
+
