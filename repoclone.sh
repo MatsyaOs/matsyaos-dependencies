@@ -1,24 +1,24 @@
-gh repo clone matsyaos/appmotor
-gh repo clone matsyaos/qt-plugins
-gh repo clone matsyaos/gtk-themes
-gh repo clone matsyaos/screenlocker
-gh repo clone matsyaos/screenshot
-gh repo clone matsyaos/calculator
-gh repo clone matsyaos/kwin-plugins
-gh repo clone matsyaos/statusbar
-gh repo clone matsyaos/core
-gh repo clone matsyaos/launcher
-gh repo clone matsyaos/statusbar-test
-gh repo clone matsyaos/daemon
-gh repo clone matsyaos/libmatsya
-gh repo clone matsyaos/terminal
-gh repo clone matsyaos/debinstaller
-gh repo clone matsyaos/matsya-settings
-gh repo clone matsyaos/texteditor
-gh repo clone matsyaos/dock
-gh repo clone matsyaos/matsyaui
-gh repo clone matsyaos/videoplayer
-gh repo clone matsyaos/filemanager
-gh repo clone matsyaos/matsya-updater
-gh repo clone matsyaos/wallpappers
-gh repo clone matsyaos/icons
+git clone https://github.com/matsyaos/appmotor
+git clone https://github.com/matsyaos/qt-plugins
+git clone https://github.com/matsyaos/gtk-themes
+git clone https://github.com/matsyaos/screenlocker
+git clone https://github.com/matsyaos/screenshot
+git clone https://github.com/matsyaos/calculator
+git clone https://github.com/matsyaos/kwin-plugins
+git clone https://github.com/matsyaos/statusbar
+git clone https://github.com/matsyaos/core
+git clone https://github.com/matsyaos/launcher
+git clone https://github.com/matsyaos/statusbar-test
+git clone https://github.com/matsyaos/daemon
+git clone https://github.com/matsyaos/libmatsya
+git clone https://github.com/matsyaos/terminal
+git clone https://github.com/matsyaos/debinstaller
+git clone https://github.com/matsyaos/matsya-settings
+git clone https://github.com/matsyaos/texteditor
+git clone https://github.com/matsyaos/dock
+git clone https://github.com/matsyaos/matsyaui
+git clone https://github.com/matsyaos/videoplayer
+git clone https://github.com/matsyaos/filemanager
+git clone https://github.com/matsyaos/matsya-updater
+git clone https://github.com/matsyaos/wallpappers
+git clone https://github.com/matsyaos/icons
