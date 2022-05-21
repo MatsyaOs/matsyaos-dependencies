@@ -20,8 +20,10 @@ build-essential cmake extra-cmake-modules libkf5kio-dev libkf5solid-dev libkf5wi
 sudo pacman -S extra-cmake-modules qt5-base qt5-quickcontrols2 gcc cmake qt5-base qt5-quickcontrols2 kwindowsystem gcc cmake qt5-base qt5-quickcontrols2 networkmanager-qt modemmanager-qt extra-cmake-modules qt5-base qt5-declarative kconfig kdecoration kguiaddons kcoreaddons kconfigwidgets kwindowsystem kwayland kwin extra-cmake-modules qt5-base qt5-quickcontrols2 taglib kio gcc cmake qt5-base qt5-quickcontrols2 kwindowsystem extra-cmake-modules pkgconf qt5-base qt5-quickcontrols2 qt5-x11extras qt5-tools  kwindowsystem polkit polkit-qt5 xorg-server-devel xf86-input-libinput xf86-input-synaptics extra-cmake-modules qt5-base qt5-quickcontrols2 freetype2 fontconfig networkmanager-qt modemmanager-qt
 
 sudo pacman -S base-devel
-    
-    
+````    
+### For batch build
+It is advised that you run commands by sudo and not by ROOT USER while building pkg.
+```
 ```
 ### For build
 ```
