@@ -27,7 +27,7 @@ It is advised that you run commands by sudo and not by ROOT USER while building 
 #RUN THE FOLLOWING CODE after download 
 
 sudo chmod 700 * 
-``
+```
 ./repoclone.sh
 ./install-arch-deps.sh
 ./archpkgbuild.sh
@@ -38,7 +38,7 @@ install-deb-deps.sh
 ./batchbuild.sh
 if DEBIAN
 ```
-```
+
 ### For build
 ```
 mkdir build
