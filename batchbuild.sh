@@ -1,3 +1,5 @@
+sudo cp ./bsc /usr/bin/
+sudo chmod 777 /usr/bin/bsc
 cd appmotor
 bsc;cd ../
 cd qt-plugins
