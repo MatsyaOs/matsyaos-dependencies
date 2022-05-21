@@ -23,6 +23,20 @@ sudo pacman -S base-devel
 ````    
 ### For batch build
 It is advised that you run commands by sudo and not by ROOT USER while building pkg.
+
+#RUN THE FOLLOWING CODE after download 
+
+sudo chmod 700 * 
+``
+./repoclone.sh
+./install-arch-deps.sh
+./archpkgbuild.sh
+for ARCH
+or
+./repoclone.sh
+install-deb-deps.sh
+./batchbuild.sh
+if DEBIAN
 ```
 ```
 ### For build
